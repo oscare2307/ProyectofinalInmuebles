@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">    
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Inmobilaria 2.0</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+<!-- Barra principal de la pagina-->
+        <div class="container">
+
+            <a href="/" class="navbar-brand"><span class="text-primary">Inmobilaria</span>Shuttles</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS"
+                arial-controls="navbarS" arial-expanded="false" arial-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarS">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pagina3" class="nav-link">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/Pagina2" class="nav-link">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/portafolio" class="nav-link">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/login" class="nav-link">Iniciar Sesion</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div id="carouselE" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="0" class="active" arial-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="1" arial-current="true"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="2" arial-current="true"
+                aria-label="Slide 3"></button>
+
+        </div>
+<!-- Ventana principal -->
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="../assets/images/1.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption">
+                    <h5>Sala de ventas</h5>
+                    <p>
+                        El conjunto Residencial esta diseñado para entregar a sus habitantes una permanente conexion
+                        entre el paisaje existente y el paisaje construido. fue
+                        construido teniendo en cuenta las relaciones con el paisaje y los jardines existentes
+                    </p>
+                    <a href="#" class="btn btn-primary mt-3">Mas Informacion</a>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="../assets/images/2.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption">
+                    <h5>Conjunto Residencial</h5>
+                    <p>
+                        Tomando estas cualidades Elenberg Fraser Architecture diseñó La Sala de Ventas del Conjunto
+                        residencial ubicada en el mismo lugar, con el objetivo de reflejar el diseño de lo espacios
+                        residenciales del conjunto. El espacio fue cuidadosamente trabajado y personalizado para los
+                        clientes con aspecto de hogar, incluyendo el aspecto del patio el cual se conecta
+                        directamente con el espacio interior.
+                    </p>
+                    <a href="#" class="btn btn-primary mt-3">Mas Informacion</a>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="../assets/images/3.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption">
+                    <h5>Sala De Ventas De Conjunto Residencial</h5>
+                    <p>
+                        Esta sala residencial tiene como objetivo reflejar los espacios en el mismo lugar para
+                        los clientes incluyendo este patio.
+                    </p>
+                    <a href="#" class="btn btn-primary mt-3">Mas Informacion</a>
+                </div>
+            </div>
+<!-- Se le asignaron dos buttons de previows y next para deplazar cada imagen de la ventana-->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselE" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" arial-hidden="true"></span>
+            <span class="visually-hidden">Previows</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselE" data-bs-slide="next">
+            <span class="carousel-control-next-icon" arial-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+<!-- se realizo una seccion de cada apartamento o servicio en la pagina-->
+    <section class="about section-padding">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img">
+                        <img src="../assets/images/about.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="about-text text-white">
+                        <h2>Apartamento <br>Servicios</h2>
+                        <p>
+                            En la inmobilaria Shuttles nos encargamos de brindarte un mayor servicio en alquiler
+                            de apartamentos que se vean a tu necesidad.
+                        </p>
+                        <a href="#" class="btn btn-primary">Mas Informacion</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+<!-- Se agrego una seccion con nombre row para los servicios-->
+    <section class="services section-padding">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Nuestros Servicios</h2>
+                        <p>
+                            En la inmobilaria Shuttles ¡Tenemos una variedad de servicios que sean
+                            de su total interes!.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-laptop"></i>
+                            <h3 class="card-tittle">Registro</h3>
+                            <p class="lead">
+                                Registra tus datos y nos encargamos de informate en nuestros servicios,
+                                ya que para nosotros es importante tenerte siempre en cuenta y brindarte
+                                una mejor calidad de vida ¡Que esperas para registrarte ya!.
+                            </p>
+                            <button class="btn bg-primary text-white">Mas Informacion</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-wifi"></i>
+                            <h3 class="card-tittle">Internet</h3>
+                            <p class="lead">
+                                En la inmobilaria Shuttles tenemos una excelente calidad en cuanto a nuestros
+                                servicios de Internet ya que cada dia actualizamos nuestras señal para que no
+                                tengas ningun imprevisto en todas tus llamadas, ¡Registrate ya!.
+                            </p>
+                            <button class="btn bg-primary text-white">Mas Informacion</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-tv"></i>
+                            <h3 class="card-tittle">Tv</h3>
+                            <p class="lead">
+                                En nuestra plataforma te ofrecemos nuestros servicios de television totalmente,
+                                gratis ya que nuestras plataformas de Streaming estan 24/7, tambien contaras con los
+                                servicios de Netflix, HBOMAX, y Star+ totalmente gratis.
+                            </p>
+                            <button class="btn bg-primary text-white">Mas Informacion</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+<!-- se agrego un portafolio de seccion-->
+    <section class="portfolio section-padding">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Alquiler</h2>
+                        <p>Aqui encontraras nuestros apartamentos a tu total disposicion.
+                            <br>Atualizamos nuestra seccion cada 2 semanas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-ligth text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4">
+                                <img src="../assets/images/Proyect 1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3>Apartamento 1</h3>
+                            <p class="lead">
+                                Este apartamento cuenta con una excelente vista tanto el amanecer como el,
+                                atardecer, contamos con una excelente sala donde podras compartir tus desayunos,
+                                almuerzo, incluso las cenas con tu familia disfrutando dias totalmente agradables.
+                            </p>
+                            <button class="btn bg-primary text-white">Mas Informacion</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-ligth text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4">
+                                <img src="../assets/images/Proyect 2.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3>Apartamento 2</h3>
+                            <p class="lead">
+                                En este apartamento contaras con una cocina totalmente a tu gusto donde podras,
+                                realizar todos tus banquetes y incluso los postres que deseas Hornear y compartir
+                                con todos tus familiares, y en caso de que presente algun problema no dude en llamarnos.
+                            </p>
+                            <button class="btn bg-primary text-white">Mas Informacion</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-ligth text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4">
+                                <img src="../assets/images/Proyect 3.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3>Apartamento 3</h3>
+                            <p class="lead">
+                                Para nosotros incluso para ti es importante tu opinion, este apartamento cuenta con una
+                                hermosa sala grande donde podras colocar todas tus cosas. Tambien contamos con una
+                                excelente
+                                cocina totalmente para ti donde podras compartir todas tus comidas.
+                            </p>
+                            <button class="btn bg-primary text-white">Mas Informacion</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="team section-padding">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Asesores</h2>
+                        <p>
+                            Para nosotros es importante estar al tanto. <br>
+                            A todas tus preguntas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="../assets/images/Team 1.jpg" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-tittle py-2">¡Atendemos todas tus dudas!</h3>
+                            <p class="card-text">
+                                Si tienes alguna duda con respecto a nuestros servicios.
+                                No te preocupes estamos 24 horas para responder todas tus preguntas que deseas
+                                buscar ¡Que estas esperando!.
+                            </p>
+                            <!-- Se agrego una sesion de buttons en las redes sociales para mas 
+                                informacion-->
+                            <section class="buttons">
+                                <a href="#" class="fa fa-facebook"></a>
+                                <a href="#" class="fa fa-twitter"></a>
+                                <a href="#" class="fa fa-instagram"></a>
+                                <a href="#" class="fa fa-youtube"></a>
+                                <a href="#" class="fa fa-linkedin"></a>
+                              </section>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="../assets/images/Team 2.jpg" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-tittle py-2">¡Nos encargamos de guiarte!</h3>
+                            <p class="card-text">
+                                Nos encargamos de asesorarte ya que para nosotros es de mayor importancia
+                                brindarte todos nuestros servicios para que no tengas ningun problema.
+                            </p>
+<!-- Se agrego una sesion de buttons en las redes sociales para mas informacion-->
+                            <section class="buttons">
+                                <a href="#" class="fa fa-facebook"></a>
+                                <a href="#" class="fa fa-twitter"></a>
+                                <a href="#" class="fa fa-instagram"></a>
+                                <a href="#" class="fa fa-youtube"></a>
+                                <a href="#" class="fa fa-linkedin"></a>
+                              </section>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="../assets/images/Team 3.jpg" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-tittle py-2">¡Te enseñamos todas nuestras variedades¡</h3>
+                            <p class="card-text">
+                                Nos encanta recibirte con los brazos abiertos una vez que estes aqui te
+                                enseñaremos todas nuestras variedades ¡ingresa!.
+                            </p>
+           <!-- Se agrego una sesion de buttons en las redes sociales para mas informacion-->
+                            <section class="buttons">
+                                <a href="#" class="fa fa-facebook"></a>
+                                <a href="#" class="fa fa-twitter"></a>
+                                <a href="#" class="fa fa-instagram"></a>
+                                <a href="#" class="fa fa-youtube"></a>
+                                <a href="#" class="fa fa-linkedin"></a>
+                              </section>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="../assets/images/Team 4.jpg" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-tittle py-2">¡Que esperas para llamarnos!</h3>
+                            <p class="card-text">
+                                Estamos disponibles 24/7 para responder todas tus llamadas solo llamanos ya
+                                y nos encargaremos de asesorarte una vez que deseas adquirir de nuestros servicios
+                                cuanto antes. ¡Escribenos ya!.
+                            </p>
+
+      <!-- Se agrego una sesion de buttons en las redes sociales para mas informacion-->
+                            <section class="buttons">
+                                <a href="#" class="fa fa-facebook"></a>
+                                <a href="#" class="fa fa-twitter"></a>
+                                <a href="#" class="fa fa-instagram"></a>
+                                <a href="#" class="fa fa-youtube"></a>
+                                <a href="#" class="fa fa-linkedin"></a>
+                              </section>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+<!-- Se creo un formulario de contactos-->
+    <section class="contact section-padding">
+
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Contacto</h2>
+                        <section class="buttons">
+                        <a href="#" class="fa fa-whatsapp"></a>
+                    </section>
+                        <p>
+                            En la inmobilaria Shuttles tu atencion nos importa mucho <br> por eso
+                            nos gustaria que dejaras tus datos para mantenerte al pendiete con nuestros servicios.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row m-0">
+                <div class="col-md-12 p-0 pt-4 pb-4">
+                    <form action="#" class="bg-dark p-4 m-auto">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Nombre">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Correo">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <textarea class="form-control" placeholder="Mensaje" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary btn-lg btn-block mt-3">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+<!--footer-->
+    <footer class="bg-dark p-2 text-center">
+        <div class="container">
+            <p class="text-white">Apartamentos Sincelejo - Sucre © 2023</p>
+        </div>
+    </footer>
+<!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

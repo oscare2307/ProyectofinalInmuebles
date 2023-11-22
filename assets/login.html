@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../assets/ccs3/style3.css">
+    <title>Login Y Registro</title>
+</head>
+<body>
+  
+    <!-- Se agrego una barra principal a la  pagina-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+
+    <div class="container">
+
+      <a href="/" class="navbar-brand"><span class="text-primary">Inmobilaria</span>Shuttles</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS"
+        arial-controls="navbarS" arial-expanded="false" arial-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarS">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="/" class="nav-link">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="../assets/pagina3.html" class="nav-link">Sobre Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a href="../assets/Pagina2.html" class="nav-link">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a href="../assets/portafolio.html" class="nav-link">Portafolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Equipo</a>
+          </li>
+          <li class="nav-item">
+            <a href="../assets/login.html" class="nav-link">Iniciar Sesion</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+    <main>
+
+      <div class="contenedor__todo">
+
+        <div class="caja__trasera">
+            <div class="caja__trasera-login">
+                <h3>¿Ya tienes una cuenta?</h3>
+                <p>Inicia sesion para acceder a la pagina</p>
+                <button id="btn__iniciar-sesion">Iniciar sesion</button>
+            </div>
+            <div class="caja__trasera-register">
+                <h3>¿Aun no tienes cuenta?</h3>
+                <p>Registrate para que puedas Iniciar sesion</p>
+                <button id="btn__registrarse">Registrarse</button>
+            </div>
+        </div>
+<!--Formulario de login y register-->
+        <div class="contenedor__login-register">
+<!--Login-->
+            <form action="" class="formulario__login">
+<!--Registrarse-->
+                <h2>Iniciar sesion</h2>
+                <input type="text" placeholder="Correo Electronico">
+                <input type="text" placeholder="Contraseña">
+                <button>Entrar</button>
+
+            </form>
+<!-- Se agrego un form-->
+            <form action="" class="formulario__register">
+                <h2>Registrarse</h2>
+                <input type="text" placeholder="Nombre Completo">
+                <input type="text" placeholder="Correo Electronico">
+                <input type="text" placeholder="Usuario">
+                <input type="text" placeholder="Contraseña">
+                <button>Registrarse</button>
+            </form>
+
+        </div>
+
+     </div>      
+    
+    </main>
+    
+<script src="./js/script.js"></script>
+</body>
+</html>
